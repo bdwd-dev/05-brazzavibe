@@ -1,0 +1,87 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "name": "Aveni Mondenge",
+      "genre": "rumba",
+      "followers": 50000,
+      "verified": true
+    },
+    {
+      "id": 2,
+      "name": "Diesse",
+      "genre": "coupé-décalé",
+      "followers": 35000,
+      "verified": true
+    },
+    {
+      "id": 3,
+      "name": "Jios",
+      "genre": "urbain",
+      "followers": 20000,
+      "verified": false
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "name": "Concert Aveni Mondenge",
+      "artist_id": 1,
+      "date": "2026-10-15",
+      "venue": "Village des Arts",
+      "price_physique": 5000,
+      "price_virtuel": 2000,
+      "tickets_sold": 150,
+      "status": "upcoming"
+    },
+    {
+      "id": 2,
+      "name": "Showcase Diesse",
+      "artist_id": 2,
+      "date": "2026-11-01",
+      "venue": "Le Wally",
+      "price_physique": 3000,
+      "price_virtuel": 1500,
+      "tickets_sold": 80,
+      "status": "upcoming"
+    }
+  ],
+  "dedications": [
+    {
+      "id": 1,
+      "artist_id": 1,
+      "fan_name": "Sarah M.",
+      "message": "Joyeux anniversaire ma chérie !",
+      "slot_number": 12,
+      "price": 5000,
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "artist_id": 2,
+      "fan_name": "Paul K.",
+      "message": "Bonne fête papa !",
+      "slot_number": 5,
+      "price": 3000,
+      "status": "active"
+    }
+  ],
+  "ticket_sales": [
+    {
+      "id": 1,
+      "event_id": 1,
+      "type": "physique",
+      "quantity": 2,
+      "total": 10000,
+      "buyer": "Jean M."
+    },
+    {
+      "id": 2,
+      "event_id": 1,
+      "type": "virtuel",
+      "quantity": 1,
+      "total": 2000,
+      "buyer": "Marie L."
+    }
+  ]
+}
